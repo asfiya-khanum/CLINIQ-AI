@@ -1,0 +1,44 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache & compiled artifacts
+__pycache__/
+*.py[cod]
+*.pyc
+*$py.class
+.pytest_cache/
+*.egg-info/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# SQLite databases, journals, and backups
+cliniq.db
+cliniq.db-*
+cliniq.db.bak
+cliniq.db.*.bak
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.bak
+
+# Uploaded medical PDFs, archives, and local patient data
+*.pdf
+*.zip
+uploads/
+uploaded_pdfs/
+patient_data/
+sample_reports/
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
